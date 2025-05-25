@@ -1,0 +1,102 @@
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  /* font width deya laklo na cause default a 400 thake */
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* shared styles  */
+.text-primary{
+    color: #FD6E0A;
+}
+
+.dark-1{
+    color: #181818;
+}
+
+.dark-2{
+  color: #474747;  
+}
+
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 9px;
+    border: none;
+}
+
+/* header */
+.header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+    
+}
+
+/* Nav styles */
+nav{
+    
+    display: flex;
+    align-items: center;
+    /* nav parents er child ache h3 and ul ai duita ke alada korar jnno ai tag use kora hou=iche  */
+    justify-content: space-between;
+    margin: 0px 150px;
+}
+
+/* dark-2 color jehutu sob jaigai ache aijonno aita ekta class er modhe rakche */
+
+
+.nav-title{
+    /* Extra bold */
+    font-weight: 800;
+
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    /* ul er futa ghula tular jnno  */
+    list-style: none;
+    margin-right: 50px;
+    /* margin-left: 50px; */
+}
+nav ul li a{
+    /* anchor er under line tular jnno */
+    text-decoration: none;
+
+    font-size: 20px;
+
+}
+
+/* Banner styles */
+.banner{
+    /* banner-content and image ke sathe korar jnno ai tag */
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 35px 0px 200px;
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner-welcome-greetings{
+     font-weight: 600;
+     font-size: 45px;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+.banner-profile-pic{
+    width: 584;
+    height: 676;
+    
+}
